@@ -34,8 +34,15 @@ const TikTok = styled.div`
     @media ${device.mobileS} { 
       display: none;
    }
+   @media ${device.mobileXS} { 
+      display: none;
+   }
 
     @media ${device.mobileM} {
+      display: none;
+    }
+
+    @media ${device.mobileXM} {
       display: none;
     }
 

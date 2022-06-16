@@ -19,7 +19,7 @@ const Invitacion = (props) => {
 
 const Card = styled.div`
     position: relative;
-    margin: 0 auto;
+    margin: -80vh auto;
     height: 800px;
     width: 1000px;
     background-color: #fff;
@@ -28,38 +28,38 @@ const Card = styled.div`
 
     @media ${device.mobileS} { 
         margin: 0 auto;
-        height: 100px;
-        width: 130px;
+        height: 50px;
+        width: 50px;
     }
 
     @media ${device.mobileXS} { 
         margin: 0 auto;
-        height: 150px;
-        width: 210px;
+        height: 100px;
+        width: 120px;
     }
 
     @media ${device.mobileM} {
         margin: 0 auto;
-        height: 250px;
-        width: 280px;
+        height: 150px;
+        width: 150px;
     }
 
     @media ${device.mobileXM} {
         margin: 0 auto;
-        height: 250px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
     }
 
     @media ${device.mobileL} {      
         margin: 0 auto;
-        height: 270px;
-        width: 360px;
+        height: 250px;
+        width: 240px;
     }
 
     @media ${device.tablet} { 
         margin: 0 auto;
-        height: 400px;
-        width: 650px;
+        height: 370px;
+        width: 380px;
     }
 
     &::after{
@@ -136,32 +136,32 @@ const Parrafo2 = styled.p`
         
         @media ${device.mobileS} { 
             font-size: 0.8em;
-            bottom: 50px;
+            bottom: 17%;
         }
 
         @media ${device.mobileXS} { 
             font-size: 1em;
-            bottom: 50px;
+            bottom: 17%;
         }
 
         @media ${device.mobileM} {
             font-size: 1.2em;
-            bottom: 70px;    
+            bottom: 17%;
         }
 
         @media ${device.mobileXM} {
             font-size: 1.5em;
-            bottom: 70px;    
+            bottom: 17%;   
         }
 
         @media ${device.mobileL} {
             font-size: 1.9em;      
-            bottom: 100px;  
+            bottom: 17%; 
         }
 
         @media ${device.tablet} {
             font-size: 2.2em; 
-            bottom: 100px;   
+            bottom: 17%;  
         }
 
 `
