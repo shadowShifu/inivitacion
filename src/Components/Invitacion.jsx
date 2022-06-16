@@ -20,7 +20,7 @@ const Invitacion = (props) => {
 const Card = styled.div`
     position: relative;
     margin: -80vh auto;
-    height: 800px;
+    height: 650px;
     width: 90%;
     background-color: #fff;
     border-radius: 10px;
@@ -122,6 +122,8 @@ const Parrafo = styled.p`
 `
 
 const Parrafo2 = styled.p`
+    position: absolute;
+    bottom: -15%;
     display: ${props.ocultar};
     margin-top: 10%;
     text-align: center;
@@ -188,10 +190,11 @@ const ContenidoLetra = styled.div`
                         <br /> 
                     </Parrafo>   
                 </ContenidoLetra>
+                <Parrafo2>
+                    Te estaré esperando desde las 14:30 PM 
+                </Parrafo2>
             </Card>
-            <Parrafo2>
-                Te estaré esperando desde las 14:30 PM 
-            </Parrafo2>
+          
         </div>
     );
 }
