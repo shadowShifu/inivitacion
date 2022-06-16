@@ -78,11 +78,9 @@ const Card = styled.div`
 
     @media ${device.tablet} { 
         margin: 0 auto;
-        height: 200px;
-        width: 290px;
+        height: 220px;
+        width: 150px;
     }
-
-  
 `
 
 const Image = styled.img`
@@ -121,11 +119,9 @@ const Parrafo = styled.p`
     }
 
     @media ${device.tablet} { 
-        font-size: 1em;
+        font-size: 0.8em;
     }
-    @media ${device.laptop} { 
-        font-size: 1em;
-    }
+
 `
 
 const Parrafo2 = styled.p`
