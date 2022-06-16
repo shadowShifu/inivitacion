@@ -82,12 +82,6 @@ const Card = styled.div`
         width: 290px;
     }
 
-    @media ${device.laptop} { 
-        margin: 0 auto;
-        height: 280px;
-        width: 800px;
-    }
-
   
 `
 
