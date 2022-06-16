@@ -53,6 +53,13 @@ const LogoI = styled.img`
       display: ${ocultar};
   }
 
+  @media ${device.mobileXS} { 
+      display: ${ocultar};
+  }
+
+  @media ${device.mobileXM} {
+      display: ${ocultar};
+  }
   @media ${device.mobileM} {
       display: ${ocultar};
   }
@@ -74,8 +81,13 @@ const Logo = styled.img`
   @media ${device.mobileS} { 
       display: ${mostrar};
   }
-
-  @media ${device.mobileM} {
+  @media ${device.mobileXS} { 
+      display: ${mostrar};
+  }
+  @media ${device.mobileXM} {
+      display: ${mostrar};
+  }
+  @media ${device.mobileM} { 
       display: ${mostrar};
   }
 
@@ -87,7 +99,6 @@ const Logo = styled.img`
       display: ${mostrar};
   }
 `
-
   return (
     <div className="App">
       <header className="App-header">

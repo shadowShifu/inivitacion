@@ -3,19 +3,8 @@ import styled, { keyframes } from 'styled-components';
 import { device } from '../Config/ConfigQuery';
 import Imagen from '../Images/fotoCumple.jpg'
 
-
 const Invitacion = (props) => {
-    const palpitar = keyframes`
-    0%{
-        transform:  scale(0.7);
-    }
-    50%{
-        transform:  scale(0.9);
-    }
-    100%{
-        transform:  scale(0.7);
-    }
-`
+
 
 const Card = styled.div`
     position: relative;
@@ -24,7 +13,7 @@ const Card = styled.div`
     width: 90%;
     background-color: #fff;
     border-radius: 10px;
-    display: ${props.ocultar};
+    display: ${props.mostrar};
     overflow: auto;
 
     &::after{
@@ -121,11 +110,34 @@ const Parrafo = styled.p`
 
 `
 
-const Parrafo2 = styled.p`
+const ContenidoFoto = styled.div`
     position: absolute;
-    bottom: -30px;
+    left: 0;
+    width: 40%;
+    height: 100%;
+`
+
+const ContenidoLetra = styled.div`
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 100%;
+`
+const palpitar = keyframes`
+0%{
+    transform:  scale(0.7);
+}
+50%{
+    transform:  scale(0.9);
+}
+100%{
+    transform:  scale(0.7);
+}
+`
+
+ const Parrafo2 = styled.p`
     display: ${props.ocultar};
-    margin-top: 10%;
+    margin-top: 15px;
     text-align: center;
     width: 100%;
     color: #fff;
@@ -160,20 +172,6 @@ const Parrafo2 = styled.p`
 
 `
 
-const ContenidoFoto = styled.div`
-    position: absolute;
-    left: 0;
-    width: 40%;
-    height: 100%;
-`
-
-const ContenidoLetra = styled.div`
-    position: absolute;
-    right: 0;
-    width: 60%;
-    height: 100%;
-`
-
     return (
         <div>
             <Card>
@@ -190,13 +188,13 @@ const ContenidoLetra = styled.div`
                         <br /> 
                     </Parrafo>   
                 </ContenidoLetra>
-                <Parrafo2>
-                    Te estaré esperando desde las 14:30 PM 
-                </Parrafo2>
+                
             </Card>
-          
+            <Parrafo2>Te estaré esperando desde las 14:30 PM </Parrafo2>
         </div>
     );
 }
+
+
 
 export default Invitacion;
