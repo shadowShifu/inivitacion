@@ -34,7 +34,7 @@ const Card = styled.div`
         height: 100%;
         background-color: #0ff;
         top: -4%;
-        left: -5%;
+        left: 5%;
     }
 
     &::before{
