@@ -65,106 +65,21 @@ const Card = styled.div`
     &::after{
         content: '';
         position: absolute;
-        width: 40px;
+        width: 7%;
         height: 100%;
         background-color: #0ff;
-        top: -30px;
-        left: -20px;
-
-        @media ${device.mobileS} { 
-            width: 4px;
-            height: 100%;
-            top: -10px;
-            left: -4px;
-        }
-
-        @media ${device.mobileXS} { 
-            width: 10px;
-            height: 100%;
-            top: -10px;
-            left: -5px;
-        }
-
-        @media ${device.mobileM} {
-            width: 12px;
-            height: 100%;
-            top: -12px;
-            left: -8px;
-        }
-
-        @media ${device.mobileXM} {
-            width: 15px;
-            height: 100%;
-            top: -15px;
-            left: -10px;
-        }
-
-        @media ${device.mobileL} {      
-            width: 20px;
-            height: 100%;
-            top: -15px;
-            left: -10px;
-        }
-
-        @media ${device.tablet} { 
-            width: 20px;
-            height: 100%;
-            top: -20px;
-            left: -15px;
-        }
-
+        top: -4%;
+        left: -5%;
     }
 
     &::before{
         content: '';
         position: absolute;
-        width: 40px;
+        width: 7%;
         height: 100%;
         background-color: #f00;
-        top: 20px;
-        right: -20px;
-
-        @media ${device.mobileS} { 
-            width: 4px;
-            height: 100%;
-            top: -10px;
-            left: -4px;
-        }
-
-        @media ${device.mobileXS} { 
-            width: 10px;
-            height: 100%;
-            top: -10px;
-            right: -5px;
-        }
-
-        @media ${device.mobileM} {
-            width: 12px;
-            height: 100%;
-            top: -12px;
-            right: -8px;
-        }
-
-        @media ${device.mobileXM} {
-            width: 15px;
-            height: 100%;
-            top: -15px;
-            right: -10px;
-        }
-
-        @media ${device.mobileL} {      
-            width: 20px;
-            height: 100%;
-            top: -15px;
-            right: -10px;
-        }
-
-        @media ${device.tablet} { 
-            width: 20px;
-            height: 100%;
-            top: -20px;
-            right: -15px;
-        }
+        top: 4%;
+        right: -5%;
     }
 `
 
@@ -172,12 +87,11 @@ const Image = styled.img`
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 40%;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 5%;
+    padding-left: 5%;
     border-radius: 5%;
-
 `
     
 const Parrafo = styled.p`
@@ -186,26 +100,26 @@ const Parrafo = styled.p`
     font-size: 1.3em;
 
     @media ${device.mobileS} { 
-        font-size: 0.7em;
+        font-size: 0.3em;
     }
     @media ${device.mobileXS} { 
-        font-size: 0.9em;
+        font-size: 0.5em;
     }
 
     @media ${device.mobileM} {
-        font-size: 1em;   
+        font-size: 0.7em;   
     }
 
     @media ${device.mobileXM} {
-        font-size: 1.2em;   
+        font-size: 0.8em;   
     }
 
     @media ${device.mobileL} {      
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     @media ${device.tablet} { 
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 `
 
