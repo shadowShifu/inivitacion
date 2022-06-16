@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/inivitacion/static/css/main.34dc3566.css",
+    "main.js": "/inivitacion/static/js/main.b5b0a427.js",
+    "static/js/787.01d3ba9d.chunk.js": "/inivitacion/static/js/787.01d3ba9d.chunk.js",
+    "static/media/fotoCumple.jpg": "/inivitacion/static/media/fotoCumple.5329f1335ddd5c71df55.jpg",
+    "static/media/logoTikTok.jpg": "/inivitacion/static/media/logoTikTok.6ad30643c80d92ee14d6.jpg",
+    "index.html": "/inivitacion/index.html",
+    "main.34dc3566.css.map": "/inivitacion/static/css/main.34dc3566.css.map",
+    "main.b5b0a427.js.map": "/inivitacion/static/js/main.b5b0a427.js.map",
+    "787.01d3ba9d.chunk.js.map": "/inivitacion/static/js/787.01d3ba9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34dc3566.css",
+    "static/js/main.b5b0a427.js"
+  ]
+}
