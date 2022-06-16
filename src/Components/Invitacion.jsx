@@ -26,6 +26,26 @@ const Card = styled.div`
     border-radius: 10px;
     display: ${props.ocultar};
 
+    &::after{
+        content: '';
+        position: absolute;
+        width: 5%;
+        height: 100%;
+        background-color: #0ff;
+        top: -4%;
+        left: -5%;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 5%;
+        height: 100%;
+        background-color: #f00;
+        top: 4%;
+        right: -5%;
+    }
+
     @media ${device.mobileS} { 
         margin: 0 auto;
         height: 80px;
@@ -65,28 +85,10 @@ const Card = styled.div`
     @media ${device.laptop} { 
         margin: 0 auto;
         height: 280px;
-        width: 500px;
+        width: 800px;
     }
 
-    &::after{
-        content: '';
-        position: absolute;
-        width: 7%;
-        height: 100%;
-        background-color: #0ff;
-        top: -4%;
-        left: -5%;
-    }
-
-    &::before{
-        content: '';
-        position: absolute;
-        width: 7%;
-        height: 100%;
-        background-color: #f00;
-        top: 4%;
-        right: -5%;
-    }
+  
 `
 
 const Image = styled.img`
