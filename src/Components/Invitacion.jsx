@@ -25,6 +25,7 @@ const Card = styled.div`
     background-color: #fff;
     border-radius: 10px;
     display: ${props.ocultar};
+    overflow: auto;
 
     &::after{
         content: '';
@@ -72,8 +73,8 @@ const Card = styled.div`
 
     @media ${device.mobileL} {      
         margin: 0 auto;
-        height: 140px;
-        width: 190px;
+        height: 160px;
+        width: 210px;
     }
 
     @media ${device.tablet} { 
@@ -98,9 +99,11 @@ const Parrafo = styled.p`
     color: #000;
     font-family: cursive;
     font-size: 1.3em;
+  
 
     @media ${device.mobileS} { 
         font-size: 0.3em;
+        
     }
     @media ${device.mobileXS} { 
         font-size: 0.5em;
@@ -156,10 +159,7 @@ const Parrafo2 = styled.p`
         }
 
         @media ${device.tablet} {
-            font-size: 1.5em; 
-        }
-        @media ${device.laptop} {
-            font-size: 2em; 
+            font-size: 1.2em; 
         }
 
 `
