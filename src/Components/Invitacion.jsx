@@ -122,7 +122,8 @@ const Parrafo = styled.p`
 `
 
 const Parrafo2 = styled.p`
-    
+    position: absolute;
+    bottom: -30px;
     display: ${props.ocultar};
     margin-top: 10%;
     text-align: center;
