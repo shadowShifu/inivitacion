@@ -23,7 +23,7 @@ const Card = styled.div`
         height: 100%;
         background-color: #0ff;
         top: -4%;
-        left: 5%;
+        left: -5%;
     }
 
     &::before{
@@ -177,6 +177,9 @@ const palpitar = keyframes`
             <Card>
                 <ContenidoFoto>
                     <Image src={Imagen}/>
+                    <Parrafo>
+                        <strong> <i>Fabiane Ross Cocarico Quispe</i> </strong> 
+                    </Parrafo>
                 </ContenidoFoto>
                 <ContenidoLetra>
                     <Parrafo>Este <strong>Sábado 18 de junio</strong> <br />
