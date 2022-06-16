@@ -5,7 +5,6 @@ import './App.css';
 import Invitacion from './Components/Invitacion';
 import LogoTikTok from './Components/LogoTikTok';
 import { device } from './Config/ConfigQuery';
-
 import LogoT from './Images/logoTikTok.jpg'
 
 function App() {
@@ -111,7 +110,7 @@ const Logo = styled.img`
           <Invitacion ocultar={mostrar}/>
           <Logo src={LogoT}/>
       </header>
-      <audio src="./fondo/I-am-Just-a-Kid.mp3" autoplay="autoplay"></audio>
+    
     </div>
   );
 }

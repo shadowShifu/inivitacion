@@ -112,10 +112,16 @@ const Parrafo = styled.p`
 
 const ContenidoFoto = styled.div`
     position: absolute;
+    display: flex;
+    flex-direction: column;
     left: 0;
     width: 40%;
     height: 100%;
 `
+
+const Nombre = styled.i`
+        font-size: 1.5em;
+    `
 
 const ContenidoLetra = styled.div`
     position: absolute;
@@ -177,8 +183,9 @@ const palpitar = keyframes`
             <Card>
                 <ContenidoFoto>
                     <Image src={Imagen}/>
+                    <br /><br /><br /><br /><br /><br /><br />
                     <Parrafo>
-                        <strong> <i>Fabiane Ross Cocarico Quispe</i> </strong> 
+                        <strong> <Nombre>Fabiane Ross Cocarico Quispe</Nombre> </strong> 
                     </Parrafo>
                 </ContenidoFoto>
                 <ContenidoLetra>
