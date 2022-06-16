@@ -28,38 +28,38 @@ const Card = styled.div`
 
     @media ${device.mobileS} { 
         margin: 0 auto;
-        height: 210px;
-        width: 190px;
+        height: 100px;
+        width: 130px;
     }
 
     @media ${device.mobileXS} { 
         margin: 0 auto;
-        height: 275px;
-        width: 265px;
+        height: 150px;
+        width: 210px;
     }
 
     @media ${device.mobileM} {
         margin: 0 auto;
-        height: 360px;
-        width: 350px;
+        height: 250px;
+        width: 280px;
     }
 
     @media ${device.mobileXM} {
         margin: 0 auto;
-        height: 400px;
-        width: 390px;
+        height: 250px;
+        width: 300px;
     }
 
     @media ${device.mobileL} {      
         margin: 0 auto;
-        height: 410px;
-        width: 430px;
+        height: 270px;
+        width: 360px;
     }
 
     @media ${device.tablet} { 
         margin: 0 auto;
-        height: 700px;
-        width: 750px;
+        height: 400px;
+        width: 650px;
     }
 
     &::after{
