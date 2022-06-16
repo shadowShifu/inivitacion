@@ -34,37 +34,37 @@ const Card = styled.div`
 
     @media ${device.mobileXS} { 
         margin: 0 auto;
-        height: 100px;
+        height: 60px;
         width: 90px;
     }
 
     @media ${device.mobileM} {
         margin: 0 auto;
-        height: 150px;
+        height: 90px;
         width: 120px;
     }
 
     @media ${device.mobileXM} {
         margin: 0 auto;
-        height: 200px;
+        height: 100px;
         width: 160px;
     }
 
     @media ${device.mobileL} {      
         margin: 0 auto;
-        height: 230px;
+        height: 140px;
         width: 190px;
     }
 
     @media ${device.tablet} { 
         margin: 0 auto;
-        height: 370px;
+        height: 200px;
         width: 290px;
     }
 
     @media ${device.laptop} { 
         margin: 0 auto;
-        height: 600px;
+        height: 280px;
         width: 500px;
     }
 
@@ -121,15 +121,19 @@ const Parrafo = styled.p`
     }
 
     @media ${device.mobileL} {      
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     @media ${device.tablet} { 
-        font-size: 1.5em;
+        font-size: 1em;
+    }
+    @media ${device.laptop} { 
+        font-size: 1em;
     }
 `
 
 const Parrafo2 = styled.p`
+    display: ${props.ocultar};
     margin-top: 10%;
     text-align: center;
     width: 100%;
@@ -144,23 +148,26 @@ const Parrafo2 = styled.p`
         }
 
         @media ${device.mobileXS} { 
-            font-size: 1em;
+            font-size: 0.8em;
         }
 
         @media ${device.mobileM} {
-            font-size: 1.2em;
+            font-size: 1em;
         }
 
         @media ${device.mobileXM} {
-            font-size: 1.5em;   
+            font-size: 1.1em;   
         }
 
         @media ${device.mobileL} {
-            font-size: 1.9em;      
+            font-size: 1.2em;      
         }
 
         @media ${device.tablet} {
-            font-size: 2.2em; 
+            font-size: 1.5em; 
+        }
+        @media ${device.laptop} {
+            font-size: 2em; 
         }
 
 `
