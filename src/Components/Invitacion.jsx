@@ -28,38 +28,44 @@ const Card = styled.div`
 
     @media ${device.mobileS} { 
         margin: 0 auto;
-        height: 50px;
-        width: 50px;
+        height: 80px;
+        width: 60px;
     }
 
     @media ${device.mobileXS} { 
         margin: 0 auto;
         height: 100px;
-        width: 120px;
+        width: 90px;
     }
 
     @media ${device.mobileM} {
         margin: 0 auto;
         height: 150px;
-        width: 150px;
+        width: 120px;
     }
 
     @media ${device.mobileXM} {
         margin: 0 auto;
         height: 200px;
-        width: 200px;
+        width: 160px;
     }
 
     @media ${device.mobileL} {      
         margin: 0 auto;
-        height: 250px;
-        width: 240px;
+        height: 230px;
+        width: 190px;
     }
 
     @media ${device.tablet} { 
         margin: 0 auto;
         height: 370px;
-        width: 380px;
+        width: 290px;
+    }
+
+    @media ${device.laptop} { 
+        margin: 0 auto;
+        height: 600px;
+        width: 500px;
     }
 
     &::after{
@@ -124,44 +130,37 @@ const Parrafo = styled.p`
 `
 
 const Parrafo2 = styled.p`
-    position: absolute;
+    margin-top: 10%;
     text-align: center;
     width: 100%;
-    color: #000;
+    color: #fff;
     font-family: cursive;
     font-size: 2.2em;
-    bottom: 10px;
     animation: ${palpitar} 2s linear infinite alternate;
     will-change: transform;
         
         @media ${device.mobileS} { 
             font-size: 0.8em;
-            bottom: 17%;
         }
 
         @media ${device.mobileXS} { 
             font-size: 1em;
-            bottom: 17%;
         }
 
         @media ${device.mobileM} {
             font-size: 1.2em;
-            bottom: 17%;
         }
 
         @media ${device.mobileXM} {
-            font-size: 1.5em;
-            bottom: 17%;   
+            font-size: 1.5em;   
         }
 
         @media ${device.mobileL} {
             font-size: 1.9em;      
-            bottom: 17%; 
         }
 
         @media ${device.tablet} {
             font-size: 2.2em; 
-            bottom: 17%;  
         }
 
 `
@@ -196,10 +195,10 @@ const ContenidoLetra = styled.div`
                         <br /> 
                     </Parrafo>   
                 </ContenidoLetra>
-                <Parrafo2>
-                Te estaré esperando desde las 14:30 PM 
-                </Parrafo2>
             </Card>
+            <Parrafo2>
+                Te estaré esperando desde las 14:30 PM 
+            </Parrafo2>
         </div>
     );
 }
