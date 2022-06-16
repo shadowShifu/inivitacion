@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.App-header h1{
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 4em;
+  animation: tiktok 0.5s linear infinite;
+}
+
+@keyframes tiktok {
+  0%, 100%{
+    text-shadow: -1.5px -1.5px 0 #0ff, 1.5px 1.5px 0 #f00;
+  }
+  25%{
+    text-shadow: 1.5px 1.5px 0 #0ff, -1.5px -1.5px 0 #f00;
+  }
+  50%{
+    text-shadow: 1.5px -1.5px 0 #0ff, -1.5px 1.5px 0 #f00;
+  }
+  75%{
+    text-shadow: -1.5px 1.5px 0 #0ff, 1.5px -1.5px 0 #f00;
+  }
+}
+
+@media (min-width:320px) { 
+  .App-header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App-header h1{
+    font-size: 1.5em;
+  }
+  }
+
+@media (min-width:375px) { 
+  .App-header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .App-header h1{
+    font-size: 2em;
+  }
+
+}
+
+@media (min-width:425px) { 
+  .App-header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .App-header h1{
+    font-size: 2.5em;
+  }
+}
+
+@media (min-width:768px) { 
+  .App-header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App-header h1{
+    font-size: 3em;
+  }
+}
