@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/invitacion/static/css/main.57a24ae9.css",
-    "main.js": "/invitacion/static/js/main.cce1e8f5.js",
+    "main.css": "/invitacion/static/css/main.806cecf8.css",
+    "main.js": "/invitacion/static/js/main.b41026cb.js",
     "static/js/787.01d3ba9d.chunk.js": "/invitacion/static/js/787.01d3ba9d.chunk.js",
     "static/media/fotoCumple.jpg": "/invitacion/static/media/fotoCumple.5329f1335ddd5c71df55.jpg",
     "static/media/logoTikTok.jpg": "/invitacion/static/media/logoTikTok.6ad30643c80d92ee14d6.jpg",
     "index.html": "/invitacion/index.html",
-    "main.57a24ae9.css.map": "/invitacion/static/css/main.57a24ae9.css.map",
-    "main.cce1e8f5.js.map": "/invitacion/static/js/main.cce1e8f5.js.map",
+    "main.806cecf8.css.map": "/invitacion/static/css/main.806cecf8.css.map",
+    "main.b41026cb.js.map": "/invitacion/static/js/main.b41026cb.js.map",
     "787.01d3ba9d.chunk.js.map": "/invitacion/static/js/787.01d3ba9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57a24ae9.css",
-    "static/js/main.cce1e8f5.js"
+    "static/css/main.806cecf8.css",
+    "static/js/main.b41026cb.js"
   ]
 }
