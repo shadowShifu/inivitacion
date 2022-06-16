@@ -21,7 +21,7 @@ const Card = styled.div`
     position: relative;
     margin: -80vh auto;
     height: 800px;
-    width: 75%;
+    width: 90%;
     background-color: #fff;
     border-radius: 10px;
     display: ${props.ocultar};
@@ -50,37 +50,31 @@ const Card = styled.div`
     @media ${device.mobileS} { 
         margin: 0 auto;
         height: 80px;
-        width: 75%;
     }
 
     @media ${device.mobileXS} { 
         margin: 0 auto;
         height: 60px;
-        width: 75%;
     }
 
     @media ${device.mobileM} {
         margin: 0 auto;
         height: 90px;
-        width: 75%;
     }
 
     @media ${device.mobileXM} {
         margin: 0 auto;
         height: 100px;
-        width: 75%;
     }
 
     @media ${device.mobileL} {      
         margin: 0 auto;
         height: 160px;
-        width: 75%;
     }
 
     @media ${device.tablet} { 
         margin: 0 auto;
         height: 220px;
-        width: 75%;
     }
 `
 
